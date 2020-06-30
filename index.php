@@ -39,7 +39,7 @@
 <!DOCTYPE html>
 <html ng-app="MonstaFTP">
 <head>
-    <title><?php print getMonstaPageTitle($isHostEdition); ?></title>
+    <title>Navitas FTP</title>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport"
@@ -155,10 +155,7 @@
 <?php }
     if (!(defined("MFTP_DISABLE_LATEST_VERSION_CHECK") && MFTP_DISABLE_LATEST_VERSION_CHECK)) {
 ?>
-    <script>
-        var versionQS = <?php print json_encode($versionQS); ?> +getFpQs();
-        document.write('<scri' + 'pt async src="//monstaftp.com/_callbacks/latest-version.php?' + versionQS + '"></scr' + 'ipt>')
-    </script>
+    
 <?php
     }
 ?>

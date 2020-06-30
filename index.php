@@ -50,7 +50,7 @@
 
     <script>
         var g_defaultLanguage = "<?php print $applicationSettings->getLanguage(); ?>";
-        var g_upgradeURL = "http://www.monstaftp.com/upgrade";
+        var g_upgradeURL = "";
         var g_loadComplete = false;
         var g_xhrTimeoutSeconds = <?php print $applicationSettings->getXhrTimeoutSeconds(); ?>;
         var g_isMonstaPostEntry = false;

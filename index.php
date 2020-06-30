@@ -45,8 +45,8 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <link rel="shortcut icon" type="image/x-icon" href="application/frontend/images/logo-favicon.png">
-    <link rel="apple-touch-icon" href="application/frontend/images/logo-webclip.png">
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="apple-touch-icon" href="">
 
     <script>
         var g_defaultLanguage = "<?php print $applicationSettings->getLanguage(); ?>";
